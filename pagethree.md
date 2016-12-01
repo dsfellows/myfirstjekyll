@@ -17,7 +17,7 @@ Here is a picture.
 
 ### Here is a random fact from the data.
 
-<strong> {{ site.data.data.Person3.random-fact }} </strong>
+<strong> {{ site.folder-of-data.file-called-data.Person3.random-fact }} </strong>
 
 
 ### Here is a list of posts.
