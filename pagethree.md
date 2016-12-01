@@ -17,7 +17,9 @@ Here is a picture.
 
 ### Here is a random fact from the data.
 
-<strong> {{ site.folder-of-data.file-called-data.Person3.random-fact }} </strong>
+Please note that one of the folders with an underscore in its title is called "data."
+
+<strong> {{ site.data.fileofdata.Person3.random-fact }} </strong>
 
 
 ### Here is a list of posts.
