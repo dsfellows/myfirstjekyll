@@ -8,7 +8,7 @@ How to install this Jekyll site:
 
 1. Follow [these instructions](http://jekyllrb.com/docs/installation/) to install Jekyll.
 
-2. On the myfirstjekyll repository page, click the green "Clone or download" button on the right-hand side, then "Open in Desktop." This will fork the repository to your Github and allow you to track changes to it using Github Desktop.
+2. On the myfirstjekyll repository page, click "Fork" in the upper right-hand corner and select the option to fork the repo to your account. Open Github Desktop. Click File -> Clone Repository to clone myfirstjekyll onto your desktop.
 
 3. Open Terminal and use the "cd" command to navigate into the myfirstjekyll directory that you just installed.
 
