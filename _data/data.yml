@@ -1,0 +1,18 @@
+Person1:
+  name: Laurie
+  web: http://www.laurieallen.org
+  bio: Laurie works at the Penn Libraries
+  avatar: /assets/images/Laurie-talky.jpg
+
+Person2:
+  name: Kirara
+  web:
+  bio: Kirara is great!
+  avatar:
+
+Person3:
+  name: Yumi
+  web:
+  bio: Yumi is great!
+  random-fact: "Yumi really loves cats."
+  avatar:

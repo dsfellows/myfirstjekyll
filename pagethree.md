@@ -2,11 +2,23 @@
 layout: page
 title: Page Three
 permalink: /pagethree/
+random-fact: "Laurie loves elephants."
+picture-of-laurie: "/assets/images/laurie-talky.jpg"
 ---
 
 ## Sample Content
 Here is a picture.
 ![legend](/assets/images/land-use-key.png){: .img-responsive .text-right .img-square}
+
+
+###  Here is a random fact
+
+<strong>  {{ page.random-fact }} </strong>
+
+### Here is a random fact from the data.
+
+<strong> {{ site.data.data.Person3.random-fact }} </strong>
+
 
 ### Here is a list of posts.
 
