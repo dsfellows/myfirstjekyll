@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "My New Blog Post"
+date:   2016-12-01
+categories: talks
+excerpt_separator: <!--more-->
+---
+
+This blog post has some text in it!
