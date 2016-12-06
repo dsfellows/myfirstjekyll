@@ -64,3 +64,4 @@ Try running ```bundle update```.
 + See the [official Jekyll documentation](http://jekyllrb.com/docs/installation/) for more information on how to install Jekyll, check your version, update, etc. Includes tips for [how to run Jekyll on Windows](http://jekyllrb.com/docs/windows/#installation)
 + [Alternate instructions for how to install Jekyll on Windows](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/), by David Burela
 + [Jekyll tutorial that explains how to use Jekyll with Github Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+f
