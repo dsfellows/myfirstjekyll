@@ -30,7 +30,7 @@ If the command still doesn't work, try running ```gem sources --add http://rubyg
 If this doesn't work either, try appending ```--source http://rubygems.org``` to the end of the command you were initially trying to run, for example: ```gem install jekyll --source http://rubygems.org``` or ```gem install jekyll bundler --source http://rubygems.org```.
 
 ### Troubleshooting for Mac:
-+ **use a sudo command on mac?**
++ *use a sudo command on mac?*
 
 ---
 
