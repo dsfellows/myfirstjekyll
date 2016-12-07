@@ -2,11 +2,17 @@
 
 This site was designed as a very simple starter for helping learn how Jekyll works.
 
-See below for instructions on how to install this Jekyll site. These instructions assume that you already have a Github account, and [Github desktop](https://desktop.github.com/) set up on your computer. You'll also need administrator privileges on the computer you're using.
+See below for instructions on how to install this Jekyll site. These instructions assume that:
++ You  have a Github account
++ You have [Github desktop](https://desktop.github.com/) set up on your computer
++ You have a text editor such as [Atom](https://atom.io/)
++ You have administrator privileges on the computer you're using
 
 **Note: Jekyll is not officially supported for Windows. It should still be possible to install and run, but you may run into some difficulties. See "Troubleshooting" sections for help.**
 
-1. Install Jekyll and its dependencies on your computer. You'll want to use this [Programming Historian tutorial](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section1); start with the section titled "Installing dependencies", and stop after the tutorial tells you to run the command ```gem install jekyll```.
+1. Install Jekyll and its dependencies on your computer. You'll want to use this [Programming Historian tutorial](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2); start with the section titled "Installing dependencies", and stop after the tutorial tells you to run the command ```gem install jekyll```.
+
+Note that some of the dependencies may take some time to install; even if your computer doesn't appear to be doing anything, wait until the command prompt (the thing that prompts you to type in new commands--usually your computer's name and your username, followed by a ""$"") reappears before typing in any new commands. This may take several minutes.
 
 ---
 
@@ -30,7 +36,8 @@ If the command still doesn't work, try running ```gem sources --add http://rubyg
 If this doesn't work either, try appending ```--source http://rubygems.org``` to the end of the command you were initially trying to run, for example: ```gem install jekyll --source http://rubygems.org``` or ```gem install jekyll bundler --source http://rubygems.org```.
 
 ### Troubleshooting for Mac:
-+ *use a sudo command on mac?*
+
+**If you get an error related to administrator privileges**, try adding ```sudo``` to the beginning of the command, for example: ```sudo brew install ruby```. You will need to enter your password before the command is executed. (In general, DON'T use ```sudo``` unless you're absolutely certain you understand the command you're using; it gives you access to your computer's root directory, which means you can accidentally delete important files and generally wreak havoc.)
 
 ---
 
@@ -45,6 +52,10 @@ If this doesn't work either, try appending ```--source http://rubygems.org``` to
 ```
 bundle exec jekyll serve --watch
 ```
+
+Your Terminal/Git Bash window should now be displaying some text ending in "Server running... press ctrl-c to stop." This means your Jekyll site is up and running, hosted locally on your computer. Open your browser and navigate to the address "localhost:4000" to view it.
+
+To view the files Jekyll is using to generate your site, open the myfirstjekyll folder in Atom.
 ---
 
 ### Troubleshooting for Windows:
@@ -55,13 +66,8 @@ bundle exec jekyll serve --watch
 
 Try running ```bundle update```.
 
----
-
-6. Your Terminal/Git Bash window should now be displaying some text ending in "Server running... press ctrl-c to stop." This means your Jekyll site should be up and running, hosted locally on your computer. Open your browser and navigate to the address "localhost:4000" to view it.
-
 ## Additional resources
 
 + See the [official Jekyll documentation](http://jekyllrb.com/docs/installation/) for more information on how to install Jekyll, check your version, update, etc. Includes tips for [how to run Jekyll on Windows](http://jekyllrb.com/docs/windows/#installation)
 + [Alternate instructions for how to install Jekyll on Windows](https://davidburela.wordpress.com/2015/11/28/easily-install-jekyll-on-windows-with-3-command-prompt-entries-and-chocolatey/), by David Burela
 + [Jekyll tutorial that explains how to use Jekyll with Github Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
-f
