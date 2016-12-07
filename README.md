@@ -14,7 +14,7 @@ See below for instructions on how to install this Jekyll site. These instruction
 
 1. Install Jekyll and its dependencies on your computer. You'll want to use this [Programming Historian tutorial](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2); start with the section titled "Installing dependencies", and stop after the tutorial tells you to run the command ```gem install jekyll```.
 
-Note that some of the dependencies may take some time to install; even if your computer doesn't appear to be doing anything, wait until the command prompt (the thing that prompts you to type in new commands--usually your computer's name and your username, followed by a ""$"") reappears before typing in any new commands. This may take several minutes.
+Note that some of the dependencies may take some time to install; even if your computer doesn't appear to be doing anything, wait until the command prompt (the thing that prompts you to type in new commands--usually your computer's name and your username, followed by a "$") reappears before typing in any new commands. This may take several minutes.
 
 ---
 
