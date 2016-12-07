@@ -10,6 +10,8 @@ See below for instructions on how to install this Jekyll site. These instruction
 
 **Note: Jekyll is not officially supported for Windows. It should still be possible to install and run, but you may run into some difficulties. See "Troubleshooting" sections for help.**
 
+---
+
 1. Install Jekyll and its dependencies on your computer. You'll want to use this [Programming Historian tutorial](http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages#section2); start with the section titled "Installing dependencies", and stop after the tutorial tells you to run the command ```gem install jekyll```.
 
 Note that some of the dependencies may take some time to install; even if your computer doesn't appear to be doing anything, wait until the command prompt (the thing that prompts you to type in new commands--usually your computer's name and your username, followed by a ""$"") reappears before typing in any new commands. This may take several minutes.
@@ -56,6 +58,7 @@ bundle exec jekyll serve --watch
 Your Terminal/Git Bash window should now be displaying some text ending in "Server running... press ctrl-c to stop." This means your Jekyll site is up and running, hosted locally on your computer. Open your browser and navigate to the address "localhost:4000" to view it.
 
 To view the files Jekyll is using to generate your site, open the myfirstjekyll folder in Atom.
+
 ---
 
 ### Troubleshooting for Windows:
@@ -65,6 +68,8 @@ To view the files Jekyll is using to generate your site, open the myfirstjekyll 
 > C:/tools/ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.13.6/lib/bundler/definition.rb:179:in 'rescue in specs': Your bundle is locked to RedCloth (4.2.9), but that version could not be found in any of the sources listed in your Gemfile. If you haven't changed sources, that means the author of RedCloth (4.2.9) has removed it. You'll need to update your bundle to a different version of RedCloth (4.2.9) that hasn't been removed in order to install. (Bundler::GemNotFound)
 
 Try running ```bundle update```.
+
+---
 
 ## Additional resources
 
