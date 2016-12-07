@@ -57,7 +57,9 @@ bundle exec jekyll serve --watch
 
 Your Terminal/Git Bash window should now be displaying some text ending in "Server running... press ctrl-c to stop." This means your Jekyll site is up and running, hosted locally on your computer. Open your browser and navigate to the address "localhost:4000" to view it.
 
-To view the files Jekyll is using to generate your site, open the myfirstjekyll folder in Atom.
+You can type control-c to stop running your Jekyll site. (Running ```bundle exec jekyll serve --watch``` again will start it up again.)
+
+To view the files Jekyll is using to generate your site, open the myfirstjekyll folder in Atom. You should now be able to change any of the files, save your changes, and refresh localhost:4000 to view the change. (If you change config.yml, you'll need to stop running your website with control-c, then start it again for your changes to take effect.)
 
 ---
 
